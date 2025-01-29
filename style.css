@@ -1,0 +1,237 @@
+/* Estilos Gerais */
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;         /* A altura mínima é 100% da altura da tela */
+  overflow-x: hidden;       /* Impede rolagem horizontal */
+  overflow-y: auto;         /* Permite rolagem vertical da página inteira */
+}
+
+
+/* Header */
+.header-container {
+  width: 100%;
+}
+
+.header {
+  background-color: #000;
+  padding: 2.0em 0;
+  text-align: center;
+  border-bottom: 3px solid #340D84; 
+}
+
+.navigation .nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 4.5em; 
+}
+
+.navigation .nav-list li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em; 
+}
+
+/* Image Section */
+.image-section {
+  position: relative; 
+  width: 100%; 
+  height: 100vh; 
+  background: url('imagens/Banner5.png') no-repeat center center; 
+  background-size: cover; 
+}
+
+.name-box {
+  position: absolute;
+  top: 25%;     
+  left: 55%;    
+  transform: translateY(-50%); 
+  background: rgba(0, 0, 0, 0.6); 
+  padding: 4em 6em;  
+  border-radius: 10px;
+  text-align: center;
+}
+
+.name-box h2 {
+  color: white;
+  font-size: 2em;
+  margin: 0;
+}
+
+.name-box h3 {
+  color: white;
+  font-size: 1em;
+  margin: 0;
+}
+
+/* Footer */
+.footer-container {
+  margin-top: auto;
+  width: 100%;
+}
+
+.footer {
+  background-color: #000;
+  text-align: center;
+  padding: 1em 0;
+  /*border-top: 3px solid #340D84; */
+}
+
+.footer-text {
+  color: white;
+  margin: 0;
+  font-size: 1em;
+}
+.about-section {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('imagens/Banner5.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;  /* Garante que a seção ocupe pelo menos 100% da altura da tela */
+}
+
+/* Box */
+.bio-box {
+  background-color: #000;
+  padding: 2em;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  width: 90%;      /* Usa 90% da largura da tela para a bio-box */
+  margin-top: 40px; /* Dá espaço entre o topo e o conteúdo */
+  border: 2px solid #340D84;
+  box-sizing: border-box;  /* Para garantir que o padding não estoure a largura total */
+}
+.info-box {
+  background-color: #000;
+  padding: 2em;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  width: 90%;      /* Usa 90% da largura da tela para a bio-box */
+  margin-top: 20px; /* Dá espaço entre o topo e o conteúdo */
+  border: 2px solid #340D84;
+  box-sizing: border-box; /* Para garantir que o padding não estoure a largura total */
+  font-weight: normal;
+}
+
+.info-box h2 {
+  font-size: 1.5em;  /* Tamanho do título */
+  color: #fff;  /* Cor do título */
+  margin-bottom: 20px;  /* Distância entre o título e a lista */
+}
+
+.info-box h3 {
+  font-size: 1em;
+  color: #fff; /* Cor do texto */
+  font-weight: normal;  /* Sem negrito */
+}
+/* Cor do link já visitado */
+.info-box h3 a:visited {
+  color: #fff;
+}
+
+/* Cor ao passar o mouse */
+.info-box h3 a:hover {
+  color: #007B9A; /* Tom mais claro para destaque */
+}
+
+.bio-box h2 {
+  font-size: 2em;  /* Tamanho maior para o título */
+  color: #fff;  /* Cor do texto */
+  margin-bottom: 1em;  /* Espaço abaixo do título */
+  margin-top: 0;  /* Remove ou ajusta o espaço acima do título */
+}
+
+.bio-image {
+  margin-bottom: 1.5em;  /* Espaço abaixo da imagem */
+}
+
+.profile-photo {
+  width: 150px;  /* Tamanho da foto */
+  height: 150px;  /* Tamanho da foto */
+  border-radius: 50%;  /* Deixa a foto redonda */
+  border: 2px solid #340D84;  /* Borda colorida */
+}
+
+.bio-box h3 {
+  font-size: 1em;  /* Tamanho de fonte do conteúdo */
+  color: #fff;  /* Cor do conteúdo */
+  line-height: 1.2;  /* Espaçamento entre as linhas */
+  text-align: justify;
+  font-weight: normal;
+}
+
+/* Títulos e Listas */
+.bio-box h4 {
+  font-size: 1.5em;  /* Tamanho do título */
+  font-weight: normal;  /* Sem negrito */
+  color: #fff;  /* Cor do título */
+  margin-bottom: 20px;  /* Distância entre o título e a lista */
+  text-align: left; 
+}
+
+/* Estilo para a lista (ul) */
+.bio-box ul {
+  list-style-type: none;  /* Remove os marcadores padrão */
+  padding-left: 0;  /* Remove o padding da lista */
+  margin: 0; /* Remove margem da lista */
+  text-align: left; 
+}
+
+/* Estilo para os itens da lista (li) */
+.bio-box ul li {
+  color: #fff;  /* Cor do texto */
+  margin-bottom: 0.9em;  /* Espaçamento entre os itens */
+  font-size: 0.9em;  /* Tamanho da fonte igual ao título */
+  line-height: 1.4;  /* Distância entre as linhas para melhorar a legibilidade */
+}
+
+.bio-box strong {
+  color: #007B9A;  /* Cor roxa para destacar as datas */
+  font-weight: normal;  /* Em negrito */
+  font-size: 1em;  
+}
+
+/* Estilização da Tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  font-size: 0.9em;
+}
+
+th {
+  background-color: #007B9A;;
+  color: white;
+  font-size: 1.2em;  /* Altere o tamanho da fonte conforme necessário */
+  font-weight: bold;
+}
+
+ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
