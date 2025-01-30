@@ -55,7 +55,7 @@ body {
 
 @media (max-width: 768px) {
   .image-section {
-    height: 50vh; /* Metade da tela para evitar corte */
+    min-height: 50vh; /* Metade da tela para evitar corte */
   }
 }
 
