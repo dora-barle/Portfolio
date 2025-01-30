@@ -53,6 +53,7 @@ body {
   background-size: cover; 
 }
 
+
 @media (max-width: 768px) {
   .image-section {
     min-height: 50vh; /* Metade da tela para evitar corte */
@@ -119,7 +120,7 @@ body {
   flex-direction: column;
   padding: 20px;
   background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url('imagens/Banner5.png');
   background-size: cover;
   background-position: center center;
@@ -155,18 +156,18 @@ body {
 }
 
 @media (max-width: 480px) {
-  .bio-box, .info-box {
+  .bio-box, .info-box .pro-box .projeto.box {
     width: 95%;
     padding: 1.5em;
   }
 }
-
 
 .info-box h2 {
   font-size: 1.5em;  
   color: #fff;  
   margin-bottom: 20px;  
 }
+
 
 .info-box h3 {
   font-size: 1em;
@@ -191,6 +192,14 @@ body {
   margin-top: 0;  
 }
 
+.bio-box h3 {
+  font-size: 1em;  
+  color: #fff;  
+  line-height: 1.2;  
+  text-align: justify;
+  font-weight: normal;
+}
+
 .bio-image {
   margin-bottom: 1.5em;  
 }
@@ -202,13 +211,7 @@ body {
   border: 2px solid #340D84;  
 }
 
-.bio-box h3 {
-  font-size: 1em;  
-  color: #fff;  
-  line-height: 1.2;  
-  text-align: justify;
-  font-weight: normal;
-}
+
 
 /* Títulos e Listas */
 .bio-box h4 {
@@ -268,3 +271,75 @@ ul {
   padding-left: 20px;
 }
 
+.pro-box {
+  background-color: #000;
+  padding: 2em;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  width: 90%;      
+  margin-top: 20px; 
+  border: 2px solid #340D84;
+  box-sizing: border-box; 
+  font-weight: normal;
+}
+
+.pro-box h5 {
+  font-size: 2em;  
+  color: #fff;  
+  margin-bottom: 1em;  
+  margin-top: 0;  
+}
+
+.pro-box h6 {
+  font-size: 1em;  
+  color: #fff;  
+  line-height: 1.2;  
+  text-align: justify;
+  font-weight: normal;
+}
+
+.pro-box h5 a:link {
+  color: #fff;  
+  text-decoration: none;  
+}
+
+.pro-box h5 a:visited {
+  color: #fff;  
+}
+
+.pro-box h5 a:hover {
+  color: #007B9A; 
+  text-decoration: underline; 
+}
+
+.projeto-box {
+  background-color: #000;
+  padding: 2em;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 1500px; /* Largura fixa */
+  margin-top: 20px; 
+  border: 2px solid #340D84;
+  box-sizing: border-box; 
+  font-weight: normal;
+  height: auto; /* Altura automática conforme o conteúdo */
+}
+
+
+.pro-box h7 {
+  font-size: 2em;  
+  color: #fff;  
+  margin-bottom: 1em;  
+  margin-top: 0;  
+}
+
+.pro-box h8 {
+  font-size: 1em;  
+  color: #fff;  
+  line-height: 1.2;  
+  text-align: justify;
+  font-weight: normal;
+}
