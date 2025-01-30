@@ -343,24 +343,24 @@ ul {
   font-weight: normal;
 }
 
-.projeto-box h9 {
-  font-size: 1em;  
+.imagem-box h9 {
+  font-size: 1.2em;  
   color: #fff;  
   line-height: 1.2;  
   text-align: justify;
   font-weight: normal;
 }
 
-.projeto-box h9 a:link {
+.imagem-box h9 a:link {
   color: #fff;  
   text-decoration: none;  
 }
 
-.projeto-box h9 a:visited {
+.imagem-box h9 a:visited {
   color: #fff;  
 }
 
-.projeto-box h9 a:hover {
+.imagem-box h9 a:hover {
   color: #0b4c96; 
   text-decoration: underline; 
 }
