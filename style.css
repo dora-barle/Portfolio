@@ -18,7 +18,7 @@ body {
   background-color: #000;
   padding: 2.0em 0;
   text-align: center;
-  border-bottom: 3px solid #340D84; 
+  border-bottom: 3px solid #0b4c96; 
 }
 
 .navigation .nav-list {
@@ -103,7 +103,7 @@ body {
   background-color: #000;
   text-align: center;
   padding: 1em 0;
-  /*border-top: 3px solid #340D84; */
+  /*border-top: 3px solid #0b4c96; */
 }
 
 .footer-text {
@@ -138,7 +138,7 @@ body {
   max-width: 1000px;
   width: 90%;      
   margin-top: 40px; 
-  border: 2px solid #340D84;
+  border: 2px solid #0b4c96;
   box-sizing: border-box;  
 }
 .info-box {
@@ -150,7 +150,7 @@ body {
   max-width: 1000px;
   width: 90%;      
   margin-top: 20px; 
-  border: 2px solid #340D84;
+  border: 2px solid #0b4c96;
   box-sizing: border-box; 
   font-weight: normal;
 }
@@ -182,7 +182,7 @@ body {
 
 /* Cor ao passar o mouse */
 .info-box h3 a:hover {
-  color: #007B9A; /* Tom mais claro para destaque */
+  color: #0b4c96; /* Tom mais claro para destaque */
 }
 
 .bio-box h2 {
@@ -208,7 +208,7 @@ body {
   width: 150px;  
   height: 150px;  
   border-radius: 50%;  
-  border: 2px solid #340D84;  
+  border: 2px solid #0b4c96;  
 }
 
 
@@ -239,8 +239,7 @@ body {
 }
 
 .bio-box strong {
-  color: #007B9A;  
-  font-weight: normal;  
+  color: #0b4c96;  
   font-size: 1em;  
 }
 
@@ -260,10 +259,10 @@ th, td {
 }
 
 th {
-  background-color: #007B9A;;
+  background-color: rgba(11, 76, 150, 0.5);
   color: white;
   font-size: 1.2em;  
-  font-weight: bold;
+  font-weight: normal;
 }
 
 ul {
@@ -280,13 +279,13 @@ ul {
   max-width: 1000px;
   width: 90%;      
   margin-top: 20px; 
-  border: 2px solid #340D84;
+  border: 2px solid #0b4c96;
   box-sizing: border-box; 
   font-weight: normal;
 }
 
 .pro-box h5 {
-  font-size: 2em;  
+  font-size: 1.7em;  
   color: #fff;  
   margin-bottom: 1em;  
   margin-top: 0;  
@@ -310,7 +309,7 @@ ul {
 }
 
 .pro-box h5 a:hover {
-  color: #007B9A; 
+  color: #0b4c96; 
   text-decoration: underline; 
 }
 
@@ -322,7 +321,7 @@ ul {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   width: 1500px; /* Largura fixa */
   margin-top: 20px; 
-  border: 2px solid #340D84;
+  border: 2px solid #0b4c96;
   box-sizing: border-box; 
   font-weight: normal;
   height: auto; /* Altura automática conforme o conteúdo */
