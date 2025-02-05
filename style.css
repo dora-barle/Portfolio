@@ -299,7 +299,7 @@ body {
   padding: 1.5em;  text-align: center;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  width: 1500px; /* Largura fixa */
+  width: 1200px; /* Largura fixa */
   margin-top: 20px; 
   border: 2px solid #0b4c96;
   box-sizing: border-box; 
@@ -350,7 +350,7 @@ body {
   padding: 1em;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  width: 1500px; 
+  width: 1200px; 
   margin-top: 20px;
   border: 2px solid #0b4c96;
   box-sizing: border-box;
