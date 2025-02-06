@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Dora Barrios-Leal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <!-- Header Container -->
+  <div class="header-container">
+    <header class="header">
+      <nav class="navigation">
+        <ul class="nav-list">
+          <li><a href="../../index.html">Início</a></li>
+          <li><a href="../sobre-mim.html">Sobre mim</a></li>
+          <li><a href="../projetos.html">Projetos</a></li>
+          <li><a href="../educacao-certificacoes.html">Educação & Certificações</a></li>
+          <li><a href="../experiencia-profissional.html">Experiência Profissional</a></li>      
+        </ul>
+      </nav>
+    </header>
+  </div>
+  
+	<div class="about-section">
+		<div class="projeto-box">
+			<h5>Modelagem Nicho Ecológico</h5>
+			<h6>
+			A Modelagem de Nicho Ecológico (MNE) permite avaliar a expansão ou contração de habitats adequados com base nas coordenadas geográficas de 
+			ocorrência, obtidas em bases como <a href="https://www.gbif.org/" target="_blank"><b>GBIF</b></a> e 
+			<a href="https://specieslink.net/" target="_blank"><b>SpeciesLink</b></a>. 
+			<br>
+			As camadas bioclimáticas (CB), compostas por 19 variáveis relacionadas à temperatura e precipitação, estão disponíveis em plataformas como 
+			<a href="https://www.worldclim.org/data/index.html" target="_blank"><b>WorldClim</b></a> e <a href="https://chelsa-climate.org/" target="_blank"><b>CHELSA</b></a>. 
+			Diferentes modelos climáticos, como <b>CCSM4</b>, <b>MIROC</b> e <b>MPI-ESM</b>, representam cenários passados, presentes e futuros.
+			A colinearidade das CB é analisada por meio do Fator de Inflação da Variância (VIF) ou da correlação de Pearson, e a área de modelagem é definida conforme os objetivos do estudo. 
+			<br>
+			A predição é realizada por meio de uma abordagem de ensemble, que combina algoritmos baseados em distância, como <b>Domain</b> (Distância de Gower) e Distância de Mahalanobis, e métodos de aprendizado de máquina, como <b>Máxima Entropia</b> (Maxent) e <b>Máquinas de Vetores de Suporte</b> (SVM). 
+			<br>
+			Os modelos são gerados com múltiplas repetições, convertidos em mapas binários pelo limiar de menor presença (LPT) e consolidados em mapas de consenso.
+			<br>
+			Para predição dos modelos e tratamento dos dados, foram utilizados os pacotes <b>raster</b>, <b>rgdal</b>, <b>dismo</b>, <b>usdm</b>, <b>randomForest</b>, e <b>rJava</b>. A visualização e análise final dos mapas gerados foram realizadas no 
+			<b><a href="https://qgis.org" target="_blank">QGIS</a></b>.
+			</h6>
+			<h3><a href="https://github.com/dora-barle/Portfolio-Projetos/tree/main/Projeto_Modelagem_Nicho_Ecologico" target="_blank">Acesse o repositório no GitHub</a></h3>
+		</div>
+		<div class="imagem-box">
+			<h6>
+			Neste estudo, foi feito o modelo de distribuição das espécies <em>Stylosanthes capitata</em> e <em>Stylosanthes macrocephala</em> para avaliar 
+			os impactos do aquecimento global futuro (2080–2100). A modelagem indicou que ambas as espécies sofrerão deslocamento espacial significativo e
+			redução das áreas de alta adequação. Embora se observe alguma expansão para novas regiões, a adequação dessas áreas é baixa, especialmente nos 
+			cenários mais pessimistas. A <em>S. capitata</em> mostra maior resiliência no cenário mais otimista, mas a taxa de mudança é mais rápida do que 
+			o esperado, colocando essas espécies em risco elevado de extinção no futuro próximo. O estudo destaca a urgência de estratégias de conservação e 
+			manejo para mitigar os impactos das mudanças climáticas nessas espécies.
+			<br><br>
+			Para mais detalhes, consulte:
+			<br>
+			<a href="https://doi.org/10.1016/j.jaridenv.2024.105124" target="_blank"> Artigo de <em>Stylosanthes</em></a> 
+			</h6>
+			<img src="../../imagens/Modelagem_Nicho_Ecologico_S.png" class="projeto-imagem">
+		</div>
+		<div class="imagem-box">
+			<h6>
+			Nesta pesquisa, foi investigada a história evolutiva de três espécies de <em>Tacinga</em> (<em>T. inamoena</em>, <em>T. subcylindrica</em> 
+			e <em>T. palmadora</em>) distribuídas na Caatinga, uma região biogeográfica localizada no semiárido do nordeste do Brasil, que se destaca pelos 
+			altos níveis de diversidade e endemismo de cactos. A modelagem indicou que as áreas de ocorrência dessas espécies no centro da Caatinga foram 
+			reduzidas ao longo do tempo, com deslocamento para a região sudeste, em estados como Bahia, Espírito Santo, Minas Gerais e Rio de Janeiro. 
+			A expansão das áreas dessas espécies para o Cerrado também foi prevista, devido às mudanças climáticas. Curiosamente, modelos climáticos do 
+			passado apontaram regiões favoráveis na Venezuela, embora as espécies não estejam presentes lá atualmente. Esses resultados ajudam a entender 
+			como o clima influenciou a distribuição das espécies ao longo da história.
+			<br><br>
+			Para mais detalhes, consulte:
+			<br>
+			<a href="https://doi.org/10.1093/botlinnean/boad054" target="_blank"> Artigo de <em>Tacinga</em></a> 
+			</h6>
+			<img src="../../imagens/Modelagem_Nicho_Ecologico_T.png" class="projeto-imagem">
+		</div>
+		<div class="imagem-box">
+			<h6>
+			Nos estudos sobre <em>Drosophila</em>, a modelagem das mudanças climáticas passadas mostrou que o impacto nas distribuições das espécies foi 
+			significativo. No estudo de <em>D. antonietae</em> e <em>D. meridionalis</em>, as rotas migratórias das espécies foram influenciadas pela dinâmica 
+			das florestas densas, que provavelmente moldaram as migrações. Em outro estudo sobre a hibridação entre <em>D. antonietae</em> e <em>D. serido</em>,
+			observou-se que o contato entre as espécies ocorreu recentemente, impulsionado pelas mudanças climáticas e pela expansão das áreas secas. 
+			No estudo das previsões futuras para o cluster de <em>D. buzzatii</em>, a modelagem indicou um possível declínio nas áreas adequadas, ameaçando 
+			a biodiversidade local. Esses resultados reforçam a importância de compreender as dinâmicas passadas e como a modelagem pode nos ajudar a prever 
+			as ameaças futuras à biodiversidade.
+			<br><br>
+			Para mais detalhes, consulte:
+			<br>
+			<a href="https://doi.org/10.1093/jhered/esy042" target="_blank"> 1. Artigo do Cluster de <em>D. buzzatii</em></a> 
+			<br>
+			<a href="https://doi.org/10.1093/aesa/saaa011" target="_blank"> 2. Artigo de D. antonietae</em> e <em>D. meridionalis</em> </a>
+			<br>
+			<a href="https://doi.org/10.1111/jeb.13934" target="_blank"> 3. Artigo deD. antonietae</em> e <em>D. serido</a>.
+			</h6>
+			<img src="../../imagens/Modelagem_Nicho_Ecologico_D.png" class="projeto-imagem">
+		</div>
+	
+	
+	</div>			  
+	  
+ <!-- Footer Container -->
+  <div class="footer-container">
+    <footer class="footer">
+      <div class="footer-content">
+        <h2 class="footer-text">© Copyright 2025 - Design by Dora Yovana Barrios Leal</h2>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
